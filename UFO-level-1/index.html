@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <title>UFO Sightitngs</title>
 </head>
 <body>
-    <table>
-        <thead>
+  <div class="p-3 mb-2 bg-warning text-dark">
+  <h3>UFO SIGHTINGS</h3>
+</div>
+    <table class="table table-bordered">
+        <thead class="thead-dark">
           <tr>
             <th>Date/Time</th>
             <th>City</th>
@@ -21,6 +25,7 @@
         </thead>
         <tbody></tbody>
       </table>
+    
       <script src="data.js"></script>
       <script src="app.js"></script>
       
