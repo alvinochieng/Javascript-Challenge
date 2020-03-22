@@ -11,6 +11,13 @@
   <div class="p-3 mb-2 bg-warning text-dark">
   <h3>UFO SIGHTINGS</h3>
 </div>
+<form>
+  <div class="form-group col-md-4">
+    <label for="filter">Filter sightings</label>
+    <input type="text" class="form-control" id="example" aria-describedby="emailHelp" placeholder="Enter Date (m/d/yyyy)">
+    <button type="submit" id="button" class="btn btn-primary">Search</button>
+  </div>
+</form>
     <table class="table table-bordered">
         <thead class="thead-dark">
           <tr>
@@ -23,7 +30,7 @@
             <th>Comments</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="res"></tbody>
       </table>
     
       <script src="data.js"></script>
