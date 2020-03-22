@@ -29,8 +29,6 @@ searchButton.on("click", function() {
 
     console.log(Searchfilter);
     
-    var searchResults = d3.select("#res");
-
     tableBody.html("");
 
     Searchfilter.forEach(rows => {
